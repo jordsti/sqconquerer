@@ -29,17 +29,55 @@
             <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="3417">
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
+                <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+                <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="player.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="1.3043479" vertical-offset="289" max-vertical-offset="1241">
+            <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
+                <marker date="1401324422192" expanded="true" signature="102:193" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="330:939" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="362:521" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="542:581" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="608:649" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="972:1342" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="1018:1144" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="1232:1272" placeholder="..." />
+                <marker date="1401324422192" expanded="true" signature="1303:1342" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="41" selection-start="3349" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="14" selection-start="725" selection-end="725" vertical-scroll-proportion="0.47826087" vertical-offset="323" max-vertical-offset="1122">
+              <folding>
+                <element signature="e#23#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,12 +133,14 @@
         <option value="$PROJECT_DIR$/units.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/player.py" />
+        <option value="$PROJECT_DIR$/client.py" />
+        <option value="$PROJECT_DIR$/server.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="width" value="1346" />
+    <option name="x" value="11" />
+    <option name="width" value="1345" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -175,7 +215,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client.py" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -183,7 +223,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test Net Player">
+  <component name="RunManager" selected="Python.Game Server">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,9 +381,47 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Game Server" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sqconquerer" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="-k test" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Game Client" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sqconquerer" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Test Map Generator" />
       <item index="1" class="java.lang.String" itemvalue="Python.Test Net Player" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Game Server" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Game Client" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -373,18 +451,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="11" y="0" width="1345" height="728" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.256391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2565839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5003762" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.49962378" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -436,6 +514,13 @@
         <state line="27" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1377">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -452,6 +537,13 @@
         <state line="33" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -461,6 +553,13 @@
         <state line="33" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -470,6 +569,13 @@
         <state line="40" column="29" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="935">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -479,6 +585,13 @@
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="289">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -507,6 +620,13 @@
         <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="3417">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
+            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
+            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -536,9 +656,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="1.3043479" vertical-offset="289" max-vertical-offset="1241">
+        <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
           <folding>
             <element signature="e#24#35#0" expanded="true" />
+            <marker date="1401324422192" expanded="true" signature="102:193" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="330:939" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="362:521" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="542:581" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="608:649" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="972:1342" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="1018:1144" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="1232:1272" placeholder="..." />
+            <marker date="1401324422192" expanded="true" signature="1303:1342" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="41" selection-start="3349" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="725" selection-end="725" vertical-scroll-proportion="0.47826087" vertical-offset="323" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#23#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
