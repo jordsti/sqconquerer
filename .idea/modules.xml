@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sqciv.iml" filepath="$PROJECT_DIR$/.idea/sqciv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sqconquerer.iml" filepath="$PROJECT_DIR$/.idea/sqconquerer.iml" />
     </modules>
   </component>
 </project>
