@@ -2,6 +2,11 @@ __author__ = 'JordSti'
 from socket import *
 
 import sys
+from SqException import *
+
+#
+# game client class
+#
 
 class game_client:
     def __init__(self, address, port=4050, name='johndoe', password=None):
@@ -16,13 +21,31 @@ class game_client:
         try:
             self.server = socket(AF_INET, SOCK_STREAM)
             self.server.connect((self.address, self.port))
-
+            print "Connected to %s:%d" % (self.address, self.port)
             msg = self.server.recv(self.buffer_size)
 
-            print msg
+            lines = msg.split('\n')
+
+            print lines[0]
+
+            if len(lines) >= 2:
+                if 'Password needed' in lines[1]:
+
+                    self.server.send(self.password+'\n')
+
+                    resp = self.server.recv(self.buffer_size)
+
+                    if "Success" in resp:
+                        print "Password is ok !"
+                    else:
+                        raise GameClientException(10, "Incorrect Password")
 
         except IOError as e:
             print "IOError (%s: %s)" % (e.errno, e.strerror)
+
+#
+#main section
+#
 
 if __name__ == '__main__':
 

@@ -26,17 +26,8 @@
       <file leaf-file-name="map.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="3417">
-              <folding>
-                <element signature="e#23#32#0" expanded="true" />
-                <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-                <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-              </folding>
+            <state line="223" column="15" selection-start="4738" selection-end="4738" vertical-scroll-proportion="0.0" vertical-offset="3383" max-vertical-offset="3859">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,19 +35,28 @@
       <file leaf-file-name="player.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
+            <state line="24" column="14" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.72432435" vertical-offset="106" max-vertical-offset="1292">
               <folding>
-                <element signature="e#24#35#0" expanded="true" />
-                <marker date="1401324422192" expanded="true" signature="102:193" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="330:939" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="362:521" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="542:581" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="608:649" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="972:1342" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="1018:1144" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="1232:1272" placeholder="..." />
-                <marker date="1401324422192" expanded="true" signature="1303:1342" placeholder="..." />
+                <element signature="e#24#61#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqException.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SqException.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="8" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,21 +64,17 @@
       <file leaf-file-name="server.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="41" selection-start="3349" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
-              <folding>
-                <element signature="e#24#44#0" expanded="true" />
-              </folding>
+            <state line="89" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2295">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="client.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="725" selection-end="725" vertical-scroll-proportion="0.47826087" vertical-offset="323" max-vertical-offset="1122">
-              <folding>
-                <element signature="e#23#43#0" expanded="true" />
-              </folding>
+            <state line="25" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1513">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +82,7 @@
       <file leaf-file-name="generator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="51" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+            <state line="40" column="51" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="850">
               <folding>
                 <marker date="1401321759173" expanded="true" signature="24:68" placeholder="import ..." />
                 <marker date="1401321759173" expanded="true" signature="90:1415" placeholder="..." />
@@ -109,10 +105,8 @@
       <file leaf-file-name="units.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/units.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-              <folding>
-                <element signature="e#24#45#0" expanded="true" />
-              </folding>
+            <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1173">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,18 +123,21 @@
       <list>
         <option value="$PROJECT_DIR$/classes.py" />
         <option value="$PROJECT_DIR$/generator.py" />
-        <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/units.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/player.py" />
-        <option value="$PROJECT_DIR$/client.py" />
+        <option value="$PROJECT_DIR$/sqexception.py" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/client.py" />
+        <option value="$PROJECT_DIR$/map.py" />
+        <option value="$PROJECT_DIR$/SqException.py" />
+        <option value="$PROJECT_DIR$/game.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="width" value="1345" />
+    <option name="x" value="194" />
+    <option name="width" value="1162" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -223,7 +220,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Game Server">
+  <component name="RunManager" selected="Python.Game Client">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,7 +409,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="sqconquerer" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="-k test2" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -451,18 +448,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="0" width="1345" height="728" extended-state="0" />
+    <frame x="194" y="0" width="1162" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2565839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29755673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5003762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.49962378" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.4991274" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -511,23 +508,127 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1377">
+        <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="44" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="51" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="850">
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
+            <marker date="1401321759173" expanded="true" signature="24:68" placeholder="import ..." />
+            <marker date="1401321759173" expanded="true" signature="90:1415" placeholder="..." />
+            <marker date="1401321759173" expanded="true" signature="136:269" placeholder="..." />
+            <marker date="1401321759173" expanded="true" signature="308:1415" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="20" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="41" selection-start="3349" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="51" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="850">
+          <folding>
+            <marker date="1401321759173" expanded="true" signature="24:68" placeholder="import ..." />
+            <marker date="1401321759173" expanded="true" signature="90:1415" placeholder="..." />
+            <marker date="1401321759173" expanded="true" signature="136:269" placeholder="..." />
+            <marker date="1401321759173" expanded="true" signature="308:1415" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="20" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1377">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/math.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6018">
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6018" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
@@ -535,72 +636,27 @@
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="935">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="29" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="935">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="289">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/math.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6018">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6018" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
@@ -615,22 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="30" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="3417">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1401323364409" expanded="true" signature="508:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1319:1552" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1566:2650" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="1748:2447" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2668:4338" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="2732:2868" placeholder="..." />
-            <marker date="1401323364409" expanded="true" signature="3665:4338" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="20" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="816">
@@ -641,51 +681,55 @@
     <entry file="file://$PROJECT_DIR$/units.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.resources">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="15" selection-start="4738" selection-end="4738" vertical-scroll-proportion="0.0" vertical-offset="3383" max-vertical-offset="3859">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-            <marker date="1401324422192" expanded="true" signature="102:193" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="330:939" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="362:521" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="542:581" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="608:649" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="972:1342" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="1018:1144" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="1232:1272" placeholder="..." />
-            <marker date="1401324422192" expanded="true" signature="1303:1342" placeholder="..." />
-          </folding>
+        <state line="24" column="14" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1207">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$PROJECT_DIR$/SqException.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="41" selection-start="3349" selection-end="3349" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
-          <folding>
-            <element signature="e#24#44#0" expanded="true" />
-          </folding>
+        <state line="14" column="8" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.py">
+    <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="725" selection-end="725" vertical-scroll-proportion="0.47826087" vertical-offset="323" max-vertical-offset="1122">
+        <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.72432435" vertical-offset="106" max-vertical-offset="1292">
           <folding>
-            <element signature="e#23#43#0" expanded="true" />
+            <element signature="e#24#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

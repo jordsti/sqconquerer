@@ -138,6 +138,15 @@ class game_map:
                 t = tile()
                 row.append(t)
 
+    def save(self, filename):
+        fp = open(filename, 'w')
+
+        data = self.to_string()
+
+        fp.write(data)
+
+        fp.close()
+
     def get_tile(self, x, y):
 
         if x < self.width and y < self.height:
@@ -194,3 +203,22 @@ class game_map:
                     x += 1
 
                 y += 1
+
+
+def load_map(filename):
+
+    fp = open(filename, 'r')
+
+    chunk = fp.read(1024)
+    data = ""
+
+    while len(chunk) > 0:
+        data += chunk
+        chunk = fp.read(1024)
+
+    fp.close()
+
+    gmap = game_map()
+    gmap.from_string(data)
+
+    return gmap

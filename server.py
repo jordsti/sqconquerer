@@ -28,34 +28,41 @@ class connection(threading.Thread):
 
     def run(self):
         print "Connection #%d" % self.connection_id
+        try:
+            welcome_msg = "Welcome to %s !\n" % self.master.name
+            password_needed = False
+            if self.master.password is not None:
+                welcome_msg += "Password needed for this server\n"
+                password_needed = True
+            self.client.send(welcome_msg)
+
+            if password_needed:
+                req = self.client.recv(self.buffer_size)
+                req = req.rstrip('\n')
+
+                if req == self.master.password:
+                    #password is good
+                    #todo
+                    print "Password is ok !"
+                    self.client.send("Success\n")
+                else:
+                    self.client.send("Invalid password\nClosing Connection\n")
+                    self.client.close()
+                    self.remove()
+                    self.connected = False
+
+        except IOError as e:
+            self.connected = False
+            print "IO Error [%s: %s]" % (e.errno, e.strerror)
+            self.remove()
+
         while self.connected:
-            try:
-                welcome_msg = "Welcome to %s !\n" % self.master.name
-                password_needed = False
-                if self.master.password is not None:
-                    welcome_msg += "Password needed for this server\n"
-                    password_needed = True
-                self.client.send(welcome_msg)
+            request = self.client.recv(self.buffer_size)
 
-                if password_needed:
-                    req = self.client.recv(self.buffer_size)
-                    req = req.rstrip('\n')
-
-                    if req == self.master.password:
-                        #password is good
-                        #todo
-                        print "Password is ok !"
-                    else:
-                        self.client.send("Invalid password\nClosing Connection\n")
-                        self.client.close()
-                        self.remove()
-                        self.connected = False
-                        break
-
-            except IOError as e:
-                self.connected = False
-                print "IO Error [%s: %s]" % (e.errno, e.strerror)
-                self.remove()
+            if len(request) == 0:
+                self.client.close()
+            else:
+                print request
 
 
 class game_server:
@@ -89,6 +96,9 @@ class game_server:
             except IOError as e:
                 print "IOError [%s: %s]" % (e.errno, e.strerror)
 
+#
+# main section
+#
 
 if __name__ == "__main__":
     print "SqConquerer server"
