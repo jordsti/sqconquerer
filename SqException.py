@@ -13,3 +13,6 @@ class GameServerException(SqException):
 
 class GameException(SqException):
     pass
+
+class UnitMoveException(GameException):
+    pass

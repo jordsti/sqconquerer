@@ -3,6 +3,7 @@ import os
 import math
 import random
 import re
+import math
 
 class coord:
     def __init__(self, x=0, y=0):
@@ -14,6 +15,11 @@ class coord:
         dist = math.pow(coord2.x - self.x, 2) + math.pow(coord2.y - self.y, 2)
 
         return math.sqrt(dist)
+
+    def diff(self, coord2):
+        dx = math.fabs(coord2.x - self.x)
+        dy = math.fabs(coord2.y - self.y)
+        return dx, dy
 
 
 class resource:
@@ -128,6 +134,32 @@ class tile:
         return "%d:%s:%s" % (self.tile_type, res, ustr)
 
 
+class player_tile(tile):
+
+    def __init__(self, tile_type=tile.Normal):
+        tile.__init__(self, tile_type)
+
+        self.visited = False
+        self.last_visit = None
+
+    def to_string(self):
+
+        if not self.visited:
+            return "x"
+        else:
+            return tile.to_string(self)
+
+    def from_string(self, text):
+
+        if text == 'x':
+            self.tile_type = tile.Normal
+            self.visited = False
+            self.last_visit = None
+            self.resources = []
+            self.unit = None
+        else:
+            tile.from_string(self, text)
+
 class game_map:
 
     def __init__(self, width=40, height=40, create_tile=True):
@@ -213,6 +245,29 @@ class game_map:
                     x += 1
 
                 y += 1
+
+class player_map(game_map):
+
+    def __init__(self, width=40, height=40):
+        game_map.__init__(self, width, height, False)
+
+        self.__init_tiles()
+
+    def __init_tiles(self):
+        self.tiles = []
+
+        for y in range(self.height):
+            row = []
+            self.tiles.append(row)
+            for x in range(self.width):
+                t = player_tile()
+                row.append(t)
+
+    def update_tile(self, x, y, tile_text):
+        if x < self.width and y < self.height:
+            t = self.get_tile(x, y)
+            t.from_string(tile_text)
+
 
 
 def load_map(filename):

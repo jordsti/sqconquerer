@@ -64,8 +64,6 @@ class unit:
             self.owner = dummy_player(int(m.group("id")))
 
 
-
-
 class archer(unit):
 
     def __init__(self, owner):

@@ -23,6 +23,10 @@ class game_player:
         self.player_id = get_player_id()
         self.name = name
         self.spawnpoint = coord(0, 0)
+        self.game_object = None
+
+    def your_turn(self, game_object):
+        self.game_object = game_object
 
 class game_session:
     def __init__(self, player):
