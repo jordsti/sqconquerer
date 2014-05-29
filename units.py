@@ -2,7 +2,8 @@ __author__ = 'JordSti'
 
 from map import coord
 import math
-
+import re
+from player import dummy_player
 
 class unit:
 
@@ -49,7 +50,20 @@ class unit:
             return False
 
     def to_string(self):
-        return "%s:%d/%d:%d" % (self.name, self.hp, self.max_hp, self.owner)
+        return "%s,%d/%d,%d" % (self.name, self.hp, self.max_hp, self.owner.player_id)
+
+    def from_string(self, text):
+        pattern = re.compile("(<name>[a-z]+),(<hp>[0-9]+)/(<max_hp>[0-9]+),(<id>[0-9]+)")
+
+        m = pattern.match(text)
+
+        if m:
+            self.name = m.group("name")
+            self.hp = int(m.group("hp"))
+            self.max_hp = int(m.group("max_hp"))
+            self.owner = dummy_player(int(m.group("id")))
+
+
 
 
 class archer(unit):
@@ -62,3 +76,12 @@ class warrior(unit):
 
     def __init__(self, owner):
         unit.__init__(self, "warrior", owner, 6, 2, 1, 2)
+
+
+def create_unit(name, owner):
+    if name == 'archer':
+        return archer(owner)
+    elif name == 'warrior':
+        return warrior(owner)
+    else:
+        return None

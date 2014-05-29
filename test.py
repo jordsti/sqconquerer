@@ -6,6 +6,7 @@ if __name__ == '__main__':
 
     gen_map = False
     net_player = False
+    game_obj = False
 
     for a in sys.argv:
         if a == '-map_generate':
@@ -14,6 +15,9 @@ if __name__ == '__main__':
         elif a == '-net_player':
             print "Net Player testing"
             net_player = True
+        elif a == '-game_obj':
+            print "GameObject test"
+            game_obj = True
 
     if gen_map:
         from generator import map_generator
@@ -40,3 +44,18 @@ if __name__ == '__main__':
 
         for p in players:
             print p.name, p.player_id, p.get_key()
+
+    if game_obj:
+        from game import game_object
+        from player import game_player
+
+        gobj = game_object()
+
+
+        gobj.add_player(game_player("jordsti"))
+        gobj.add_player(game_player("joshua"))
+        gobj.add_player(game_player("john"))
+
+        gobj.pick_first()
+        gobj.start_game()
+

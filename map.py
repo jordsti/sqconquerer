@@ -82,16 +82,21 @@ class tile:
     def __init__(self, tile_type=Normal):
         self.tile_type = tile_type
         self.resources = []
+        self.unit = None
+
+    def walkable(self):
+        return self.tile_type == self.Normal
 
     def from_string(self, text):
 
-        pattern = re.compile("([0-9]+):([a-z,0-9\\-]*)")
+        pattern = re.compile("([0-9]+):([a-z,0-9\\-]*):([a-z:0-9/]*)")
 
         m = pattern.match(text)
 
         if m:
             type_id = int(m.group(1))
             res = m.group(2)
+            ustr = m.group(3)
 
             if type_id == self.Normal or type_id == self.Mountain or type_id == self.Water:
                 self.tile_type = type_id
@@ -114,8 +119,13 @@ class tile:
         for r in self.resources:
             res += "%s-%d," % (r.name, r.value)
 
+        ustr = ""
+
+        if self.unit is not None:
+            ustr = self.unit.to_string()
+
         res = res.rstrip(',')
-        return "%d:%s" % (self.tile_type, res)
+        return "%d:%s:%s" % (self.tile_type, res, ustr)
 
 
 class game_map:

@@ -3,6 +3,7 @@ __author__ = 'JordSti'
 import time
 import hashlib
 import random
+from map import coord
 
 current_id = 1
 
@@ -13,10 +14,15 @@ def get_player_id():
 
     return player_id
 
+class dummy_player:
+    def __init__(self, player_id):
+        self.player_id = player_id
+
 class game_player:
     def __init__(self, name):
         self.player_id = get_player_id()
         self.name = name
+        self.spawnpoint = coord(0, 0)
 
 class game_session:
     def __init__(self, player):
