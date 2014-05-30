@@ -14,9 +14,11 @@ def get_player_id():
 
     return player_id
 
+
 class dummy_player:
     def __init__(self, player_id):
         self.player_id = player_id
+
 
 class game_player:
     def __init__(self, name):
@@ -27,6 +29,7 @@ class game_player:
 
     def your_turn(self, game_object):
         self.game_object = game_object
+
 
 class game_session:
     def __init__(self, player):

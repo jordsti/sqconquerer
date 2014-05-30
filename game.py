@@ -4,12 +4,38 @@ from SqException import GameException
 from generator import map_generator
 from map import *
 from units import *
+from turn import *
+
+import time
 import random
 
 
 def default_units():
     units = ["archer", "warrior"]
     return units
+
+
+class game_end_condition:
+
+    def __init__(self, game, text="Nothing"):
+        self.game = game
+        self.text = text
+
+    def is_ended(self):
+        return False
+
+
+class max_turn_condition(game_end_condition):
+
+    def __init__(self, game, max_turns = 100):
+        game_end_condition.__init__(self, game, "Ended by turns limit, %d turns" % max_turns)
+        self.max_turns = max_turns
+
+    def is_ended(self):
+        if self.game.turns >= self.max_turns:
+            return True
+        else:
+            return False
 
 
 class game_context:
@@ -20,6 +46,7 @@ class game_context:
         self.height = 40
         self.map_type = map_type
         self.difficulty = 1
+        self.end_conditions = []
 
     def get_map(self):
         if self.map_type == 'generated':
@@ -43,11 +70,13 @@ class game_object:
         self.turns = 0
         self.context = context
         self.map = context.get_map()
+        self.end_conditions = context.end_conditions
         self.spawnpoints = []
 
         self.current_player = None
+        self.current_turn = None
         self.current_player_index = 0
-
+        self.turn_constraints = []
         self.starting_player = 0
 
     def add_player(self, player):
@@ -92,6 +121,19 @@ class game_object:
                 else:
                     continue
 
+    def next_turn(self):
+
+        self.current_player_index += 1
+
+        if self.current_player_index >= len(self.players):
+            self.current_player_index %= len(self.players)
+
+        self.current_player = self.players[self.current_player_index]
+
+        if self.current_player == self.starting_player:
+            self.turns += 1
+
+
     def assign_spawnpoint(self):
         for p in self.players:
             #picking random spawn point
@@ -102,8 +144,6 @@ class game_object:
             sp = self.spawnpoints[pid]
             p.spawnpoint = sp
             self.spawnpoints.remove(sp)
-
-
 
     def place_units(self, starting_unit=default_units()):
         for p in self.players:
@@ -124,9 +164,6 @@ class game_object:
                         pos = coord(p.spawnpoint.x + dx, p.spawnpoint.x + dy)
                         t = self.map.get_tile(pos.x, pos.y)
 
-
-
-
     def start_game(self):
         if self.phase == self.Preparation:
             if len(self.players) >= 2:
@@ -141,5 +178,31 @@ class game_object:
                 print self.map.to_string()
 
                 self.phase = self.GameTurns
+
+                ended = False
+
+                for ec in self.end_conditions:
+                    if ec.is_ended():
+                        ended = True
+
+                while not ended:
+                    self.current_turn = turn_context(self, self.current_player)
+
+                    while self.current_turn.ended:
+                        self.current_turn.generate_units_view()
+
+                        #get unit move
+
+
+                        time.sleep(0.2)
+
+                    #next playing
+
+                    self.next_turn()
+
+                    for ec in self.end_conditions:
+                        if ec.is_ended():
+                            print "Game added" #todo
+                            break
             else:
                 raise GameException(000002, "You need at least 2 players to start a game")

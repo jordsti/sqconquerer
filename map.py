@@ -1,9 +1,10 @@
 __author__ = 'JordSti'
 import os
-import math
 import random
 import re
 import math
+
+from SqException import ParsingException
 
 class coord:
     def __init__(self, x=0, y=0):
@@ -20,6 +21,20 @@ class coord:
         dx = math.fabs(coord2.x - self.x)
         dy = math.fabs(coord2.y - self.y)
         return dx, dy
+
+    def from_string(self, text):
+
+        pattern = re.compile("\\[(<x>[0-9]+),(<y>[0-9]+)\\]")
+        m = pattern.match(text)
+
+        if m:
+            self.x = int(m.group("x"))
+            self.y = int(m.group("y"))
+        else:
+            raise ParsingException(200005, "Invalid coord")
+
+    def to_string(self):
+        return "[%d,%d]" % (self.x, self.y)
 
 
 class resource:

@@ -1,6 +1,7 @@
 __author__ = 'JordSti'
 
 from socket import *
+from game import *
 import threading
 import sys
 
@@ -11,6 +12,7 @@ def get_connection_id():
     cid = connection_id
     connection_id += 1
     return cid
+
 
 class connection(threading.Thread):
 
@@ -63,6 +65,17 @@ class connection(threading.Thread):
                 self.client.close()
             else:
                 print request
+
+
+class game_thread(threading.Thread):
+
+    def __init__(self, context=game_context()):
+        threading.Thread.__init__(self)
+        self.context = context
+        self.game = game_object(context)
+
+    def run(self):
+        self.game.start_game()
 
 
 class game_server:
